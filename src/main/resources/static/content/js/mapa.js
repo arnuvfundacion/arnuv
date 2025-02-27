@@ -55,7 +55,7 @@ function inicializarMapa(paseadores, ubicacionDefault, vistaMapa) {
       var popupContent = `
             <div style="font-size: 12px; text-align: center;">
                 <strong>🚶 ${paseador.nombre}</strong><br>
-                Preferencias: ${paseador.preferencias}  <br>  Años de experiencia: ${paseador.experiencia}<br><br>
+                Preferencias: ${paseador.preferencias}  <br>  Meses de experiencia: ${paseador.experiencia}<br><br>
                 <button class="solicitar-btn" data-codigo="${paseador.codigo}" 
                         style="background: #007bff; color: white; border: none; padding: 3px 7px; font-size: 12px; cursor: pointer;">
                     Solicitar
